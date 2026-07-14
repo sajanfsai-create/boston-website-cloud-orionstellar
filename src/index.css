@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* ===== CSS CUSTOM PROPERTIES (Design Tokens) ===== */
+:root {
+  --primary-blue: #1A74FA;
+  --black: #000000;
+  --body-text: #505050;
+  --border-color: #E7E7E7;
+  --white: #FFFFFF;
+  --light-blue: #E0EBFF;
+  --menu-text: #111111;
+  --menu-hover: #1e73ff;
+  --scroll-bg: #F5F5F5;
+}
+
+/* ===== BASE RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(180deg, var(--light-blue) 0%, transparent 20%);
+  color: var(--black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ===== CUSTOM SCROLLBAR ===== */
+::-webkit-scrollbar {
+  width: 0.7vw;
+  background: var(--scroll-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-blue);
+  border-radius: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
