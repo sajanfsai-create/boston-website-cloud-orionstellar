@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="435" height="419" viewBox="0 0 435 419" fill="none">
+  <!-- Back flap -->
+  <path opacity="0.2" d="M217.5 130L380 230L217.5 320L55 230L217.5 130Z" fill="#1A74F9"/>
+  <!-- Bottom part of envelope -->
+  <path opacity="0.5" d="M55 230L217.5 320L380 230L380 380L217.5 450L55 380Z" fill="#1A74F9"/>
+  <!-- Top flap folded down -->
+  <path d="M55 230L217.5 320L380 230L217.5 160L55 230Z" fill="#1A74F9"/>
+  <!-- Chat bubble accent floating above -->
+  <path opacity="0.8" d="M150 40L280 40L280 120L200 120L150 160L150 120L150 40Z" fill="#1A74F9"/>
+</svg>
