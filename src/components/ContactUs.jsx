@@ -155,7 +155,7 @@ function ContactUs() {
                 <div className="contact-text-box">
                   <span className="contact-label">Visit Us</span>
                   <span className="contact-value">
-                    752 Dr Danister De Silva Mawatha, Colombo 00900, Sri Lanka
+                    9 Battery Road #28-01 Singapore, Central Singapore 049910
                   </span>
                 </div>
               </li>
